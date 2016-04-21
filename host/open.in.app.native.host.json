@@ -1,0 +1,9 @@
+{
+  "name": "open.in.app.native.host",
+  "description": "Open Youtube video with external player",
+  "path": "HOST_PATH",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://adaologafpchnoejdpleiokggkcibhlh/"
+  ]
+}

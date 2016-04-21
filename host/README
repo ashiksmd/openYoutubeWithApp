@@ -1,0 +1,10 @@
+To install:
+
+1. In open.in.app.native.host.json, replace HOST_PATH with the complete path
+   to the script openYoutubewithApp.py
+2. In the same file, confirm the id of the chrome extension.
+   Under "allowed_origins", the id of the extension should be entered as
+      "chrome-extension://<id>"
+   The id can be found on the extensions page on chrome (chrome://extensions)
+3. Copy the json file into ~/.config/google-chrome/NativeMessagingHosts/
+

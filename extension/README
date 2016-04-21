@@ -1,0 +1,10 @@
+To install:
+
+1. Open the extensions page on Chrome (chrome://extensions)
+2. Enable "Developer mode" by selecting the checkbox on the top right.
+3. Click "Load unpacked extension"
+4. Navigate to the folder containing this README and click "Open"
+
+If the extension does not work, make sure the Native Messaging Host has
+been installed. It should be in the host folder at the root of this repository.
+

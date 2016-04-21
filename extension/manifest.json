@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Open in App",
+  "description": "Open URL in an external application",
+  "version": "0.6",
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  
+  "background": {
+    "scripts": ["openInApp.js"]
+  },
+  "permissions": [
+   "activeTab",
+   "contextMenus",
+   "nativeMessaging"
+   ]
+}
